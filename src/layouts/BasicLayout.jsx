@@ -153,6 +153,12 @@ const BasicLayout = props => {
                 path: '/meText2',
                 component: './meText2',
                
+              },{
+                name: '测试3',
+                icon:<SettingOutlined/>,
+                path: '/meText3',
+                component: './meText3',
+               
               }
               // ,{
               //   name: '查询表单',

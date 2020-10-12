@@ -113,6 +113,13 @@ export default defineConfig({
              
             },
             {
+              name: '测试3',
+              icon:'smile',
+              path: '/meText3',
+              component: './meText3',
+             
+            },
+            {
               component: './404',
             },
           ],
