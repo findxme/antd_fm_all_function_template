@@ -104,19 +104,7 @@ const BasicLayout = props => {
                 component: './Welcome',
                
               },
-              {
-                name: 'list.table-list',
-                icon:<SettingOutlined/>,
-                path: '/list',
-                component: './ListTableList',
-              },
-              {
-                name: '通用组件',
-                icon:<SettingOutlined/>,
-                path: '/listtablelist',
-                component: './ListTableListTwo',
-               
-              },
+             
             ],
           },
           {
@@ -232,7 +220,7 @@ const BasicLayout = props => {
         );
       }}
       footerRender={() => defaultFooterDom}
-      menuDataRender={()=>menuData}
+      menuDataRender={()=>menuDataRender}
       rightContentRender={() => <RightContent />}
       {...props}
       {...settings}

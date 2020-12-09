@@ -4,8 +4,6 @@ const submitBusinessFormData = (data) => {
   return postFormRequest({proxy: 'proxy8897', path: 'fmAll/submitBusinessFormData'},data);
   };
 
-
-
   const deleteData=(data)=>{
     return getRequest({proxy: 'proxy8897', path: 'fmAll/deleteData'}, {fromDefineId:'3682688506104',...data});
   };

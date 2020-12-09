@@ -70,53 +70,14 @@ export default defineConfig({
                 },
               ],
             },
-            {
-              name: '查询表格',
-              icon: 'smile',
-              path: '/listtablelist',
-              component: './ListTableListTwo',
-            },
-            {
-              name: 'list.table-list',
-              icon: 'table',
-              path: '/list',
-              component: './ListTableList',
-            },
-            {
-              name: '查询表格',
-              icon: 'smile',
-              path: '/MeCommon/MeTable',
-              component: './MeCommon/MeTable',
-            },{
-              name: '查询表单',
-              icon: 'smile',
-              path: '/MeCommon/MeForm',
-              component: './MeCommon/MeForm',
-            },{
-              name: '查询表格',
-              icon: 'smile',
-              path: '/MeCommonnew/MeTable',
-              component: './MeCommonnew/MeTable',
-            },
+         
+          
             {
               name: '测试',
               icon:'smile',
               path: '/meText',
               // path: '/listtablelist',
               component: './meText',
-             
-            }, {
-              name: '测试2',
-              icon:'smile',
-              path: '/meText2',
-              component: './meText2',
-             
-            },
-            {
-              name: '测试3',
-              icon:'smile',
-              path: '/meText3',
-              component: './meText3',
              
             },
             {
